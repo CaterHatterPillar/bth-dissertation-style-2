@@ -1,12 +1,12 @@
-%% This is an example using the illcdiss.cls.
+%% BTH Dissertation Style 2
+%% Blekinge Institute of Technology alternative dissertation/thesis template. See https://github.com/CaterHatterPillar/bth-dissertation-style for a style resembling the official, close-source, dissertation template commonly used in BTH computer science theses.
 %%
 %% Author: Marco Vervoort
+%% Editor: Eric Nilsson (used with permission)
 %%
-%% Version: July 18, 2001.
+%% Version: June 29, 2014.
 %%
-%%
-%%
-%%
+
 \documentclass{illcdiss}
 
 %If you use Latex2.09 instead of Latex2e, comment the \documentclass line
@@ -20,20 +20,17 @@
 %\usepackage{makeidx}     % only with Latex2e
 %\makeindex
 
-\typeout{ILLC Dissertation Example File `guide.tex' <July 21, 2001>.}
+\typeout{BTH Dissertation Style 2 Source File `guide.tex' <June 29, 2014>.}
 
 \begin{document}
 \pagestyle{plain}
 \pagenumbering{roman}
 
-%%  \include the `front matter'
-
+%% Thesis front matter:
 \include{guide_front}
 \include{guide_dedication}
 \tableofcontents
 \include{guide_acknowledgements}
-
-%%  now we can start with the real thing
 
 \cleardoublepage
 \pagestyle{headings}
@@ -45,8 +42,7 @@
 \appendix
 \include{guide_appA}
 
-%%  \include the `end matter'
-
+%% Thesis back matter:
 %\bibliographystyle{plain}
 \include{guide_bib}
 \include{guide_index}
@@ -54,10 +50,5 @@
 \include{guide_samenvatting}
 \include{guide_abstract}
 \include{guide_curriculum}
-
-%%  finally, \include the list of previous ILLC dissertations
-
-\cleardoublepage % if you are so inclined
-\include{illcdissertations}
 
 \end{document}

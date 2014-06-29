@@ -1,0 +1,6 @@
+BTH Dissertation Style 2
+Blekinge Institute of Technology alternative dissertation/thesis template. See https://github.com/CaterHatterPillar/bth-dissertation-style for a style resembling the official, close-source, dissertation template commonly used in BTH computer science theses.
+
+29-06-2014
+* Aptly renamed ILLC style class and type outs to BTH naming conventions.
+* Removed list of ILLC publications.
