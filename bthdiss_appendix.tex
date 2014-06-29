@@ -1,4 +1,4 @@
-%% BTH Dissertation Style 2
+%% BTH Dissertation Style 2 (see https://github.com/CaterHatterPillar/bth-dissertation-style-2)
 %% Blekinge Institute of Technology alternative dissertation/thesis template. See https://github.com/CaterHatterPillar/bth-dissertation-style for a style resembling the official, close-source, dissertation template commonly used in BTH computer science theses.
 %%
 %% Based on the ILLC Dissertation Style by the Institute for Logic, Language and Computation, University of Amsterdam (used with permission).
