@@ -345,14 +345,9 @@
 \newenvironment{fact}{\begin{@fact}\upshape}{\end{@fact}}
 \newtheorem{@question}[theorem]{Question}
 \newenvironment{question}{\begin{@question}\upshape}{\end{@question}}
-%
-%   Symbols for AmsTex and ILLC
-%
-\newcommand{\illclogo}[1]{%
-   \includegraphics[width=#1]{illclogo}%
-}
-\newcommand{\illcnotextlogo}[1]{%
-   \includegraphics[width=#1]{illc_no_text_logo}%
+
+\newcommand{\bthlogo}[1]{%
+   \includegraphics[width=#1]{bthdiss_logo.eps}%
 }
 
 \endinput

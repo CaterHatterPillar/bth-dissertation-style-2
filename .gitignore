@@ -16,6 +16,7 @@ __MACOSX/
 
 ## Intermediate documents:
 *.dvi
+*-eps-converted-to*
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps

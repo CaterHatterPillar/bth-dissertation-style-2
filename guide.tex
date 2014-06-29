@@ -11,7 +11,18 @@
 %% Version: June 29, 2014.
 %%
 
+% To the reader:
+% ---
+% The BTH Dissertation Style 2 is fairly straight-forward to use, and you ought be able to simply start writing your document below or in included files - without having to dig in to matter design and style.
+% However, in order to add the correct information about your thesis, such as title, author, etc., you will have to enter said information in a number of assorted files.
+% In order to do this easily, please grep the relevant directory for "% TODO:" in order to find the action-required elements.
+
 \documentclass{illcdiss}
+
+\usepackage{hyperref} % In order to hyperlink BTH link.
+\usepackage{epstopdf} % In order to accomodate for .eps usage whilst using pdflatex (handled automatically by some TeX distros).
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 
 %If you use Latex2.09 instead of Latex2e, comment the \documentclass line
 %and uncomment one of the following lines (depending on whether you
@@ -40,6 +51,7 @@
 \pagestyle{headings}
 \pagenumbering{arabic}
 
+%% Thesis body matter:
 \include{guide_ch1}
 \include{guide_ch2}
 \include{guide_ch3}
