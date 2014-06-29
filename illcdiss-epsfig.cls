@@ -1,10 +1,17 @@
-% ILLC Disseration style.
-%
-% Author: Marco Vervoort
-% Based on a Latex 2.09 style file by Maarten de Rijke,
-% and the Book document class for Latex 2e.
-% Code for chapter heads by Martin Stokhof.
-%
+%% BTH Dissertation Style 2
+%% Blekinge Institute of Technology alternative dissertation/thesis template. See https://github.com/CaterHatterPillar/bth-dissertation-style for a style resembling the official, close-source, dissertation template commonly used in BTH computer science theses.
+%%
+%% Based on the ILLC Dissertation Style by the Institute for Logic, Language and Computation, University of Amsterdam (used with permission).
+%% Licensed under the BSD 3-Clause License.
+%% See adjoined LICENSE for more information.
+%%
+%% Author: Marco Vervoort
+%% Editor: Eric Nilsson (used with permission)
+%%
+%% Based on a Latex 2.09 style file by Maarten de Rijke,
+%% and the Book document class for Latex 2e.
+%% Code for chapter heads by Martin Stokhof.
+%%
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{illcdiss}[2001/07/18 ILLC Dissertation Style]
 \newcommand{\@mult}{1.2}
