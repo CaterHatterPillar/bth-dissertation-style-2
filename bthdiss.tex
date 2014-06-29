@@ -17,7 +17,7 @@
 % However, in order to add the correct information about your thesis, such as title, author, etc., you will have to enter said information in a number of assorted files.
 % In order to do this easily, please grep the relevant directory for "% TODO:" in order to find the action-required elements.
 
-\documentclass{illcdiss}
+\documentclass{bthdiss}
 
 \usepackage{hyperref} % In order to hyperlink BTH link.
 \usepackage{epstopdf} % In order to accomodate for .eps usage whilst using pdflatex (handled automatically by some TeX distros).
@@ -28,43 +28,42 @@
 %and uncomment one of the following lines (depending on whether you
 %also want to use MakeIndex)
 
-%\documentstyle[12pt,epsf]{illc_diss}
-%\documentstyle[12pt,makeidx,epsf]{illc_diss}
+%\documentstyle[12pt,epsf]{bth_duss}
+%\documentstyle[12pt,makeidx,epsf]{bth_diss}
 
 %If you want to use MakeIndex, uncomment these lines
 %\usepackage{makeidx}     % only with Latex2e
 %\makeindex
 
-\typeout{BTH Dissertation Style 2 Source File `guide.tex' <June 29, 2014>.}
+\typeout{BTH Dissertation Style 2 Source File `bthdiss.tex' <June 29, 2014>.}
 
 \begin{document}
 \pagestyle{plain}
 \pagenumbering{roman}
 
 %% Thesis front matter:
-\include{guide_front}
-\include{guide_dedication}
+\include{bthdiss_front}
+\include{bthdiss_dedication}
 \tableofcontents
-\include{guide_acknowledgements}
+\include{bthdiss_acknowledgement}
 
 \cleardoublepage
 \pagestyle{headings}
 \pagenumbering{arabic}
 
 %% Thesis body matter:
-\include{guide_ch1}
-\include{guide_ch2}
-\include{guide_ch3}
+\include{bthdiss_gettingstarted}
+\include{bthdiss_layout}
+\include{bthdiss_submition}
 \appendix
-\include{guide_appA}
+\include{bthdiss_appendix}
 
 %% Thesis back matter:
 %\bibliographystyle{plain}
-\include{guide_bib}
-\include{guide_index}
-\include{guide_symbols}
-\include{guide_samenvatting}
-\include{guide_abstract}
-\include{guide_curriculum}
+\include{bthdiss_bib}
+\include{bthdiss_index}
+\include{bthdiss_symbols}
+\include{bthdiss_abstract}
+\include{bthdiss_cv}
 
 \end{document}
